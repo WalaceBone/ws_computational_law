@@ -1,0 +1,27 @@
+{
+  "rulename": "bornPlace",
+  "rule": {
+    "settlement": [
+      "UK",
+      "Rep. Ireland",
+      "Hong Kong"
+    ],
+    "key": "PlaceOfBirth",
+    "dependsOn": [
+      "parents",
+      "citizen"
+    ],
+    "result": [
+      "UK"
+    ]
+  },
+  "rulename": "isCitizen",
+  "rule": {
+    "key": "isCitizen",
+    "dependsOn": [
+      "parents",
+      "citizen"
+    ],
+    "result": true
+  }
+}
